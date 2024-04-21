@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+  --cor1: #790DF9;
+  --cor2:  #45059e;
+  --cor3: #28035d;
+}
+
+* {
+    margin: 0px;
+}
+
+div#barra {
+    background-color: rgb(224, 222, 222);
+    height: 50px;
+    width: 90%;
+    height: 17%;
+    min-height: 30px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+div#linha > a {
+    color: black;
+    background-color: rgb(104, 212, 104);
+    text-decoration: none;
+    font-size: 13px;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 3px;
+    margin-right: 10px;
+    border: 2px solid rgb(2, 171, 30);
+}
+
+div#linha {
+    width: 100%;
+    margin: auto;
+
+}
+
+div#linha > a:hover {
+    background-color: green;
+}
+
+header {
+    background-image:linear-gradient(to bottom, #45059e, #28035d);
+    height: 110px;
+    padding-top: 50px;
+}
+
+header > h1 {
+    font-family: "Outfit", sans-serif;
+    background-color: #790DF9;
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav {
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+nav > .home {
+    background-color: var(--cor2);
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background-color: #3b0488;
+    font-size:larger ;
+    border-left: 2px solid #790DF9;
+    border-right: 2px solid #790DF9;
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+}
+
+body {
+    background-image: url(img/imgfundo.avif);
+    height: 100vh;
+}
+
+main {
+    background-color: #790DF9;
+    width: 90%;
+    max-width: 1000px;
+    height: 90%;
+    margin: auto;
+}
+
+main > h1 {
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 10px;
+}
+
+main > p {
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px;
+}
+
+footer {
+    background-color:var(--cor2);
+    height: 30px;
+}
