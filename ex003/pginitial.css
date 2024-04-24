@@ -10,6 +10,7 @@
 
 * {
     margin: 0px;
+    color: white;
 }
 
 div#barra {
@@ -76,7 +77,7 @@ nav > .home {
 nav > a {
     text-decoration: none;
     padding: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
     background-color: #3b0488;
     font-size:larger ;
     border-left: 2px solid #790DF9;
