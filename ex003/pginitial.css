@@ -17,7 +17,7 @@ div#barra {
     background-color: rgb(224, 222, 222);
     height: 50px;
     width: 90%;
-    height: 17%;
+    height: 17vh;
     min-height: 30px;
     margin: auto;
     padding: 5px;
@@ -29,12 +29,13 @@ div#linha > a {
     background-color: rgb(104, 212, 104);
     text-decoration: none;
     font-size: 13px;
+    font-weight: bolder;
     display: inline-block;
-    padding: 6px;
+    padding: 7px;
     border-radius: 10px;
     text-align: center;
     margin: 3px;
-    margin-right: 10px;
+    width: 13vw;
     border: 2px solid rgb(2, 171, 30);
 }
 
@@ -99,6 +100,9 @@ main {
     max-width: 1000px;
     height: 90%;
     margin: auto;
+    box-shadow: 3px 3px 10px 2px black;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 10px 20px;
 }
 
 main > h1 {
