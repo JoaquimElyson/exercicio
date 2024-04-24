@@ -82,7 +82,7 @@ section {
 }
 
 .imagem {
-    background-size: cover;
+    background-size: ;
     box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.523);
     background-attachment: fixed;
 }
