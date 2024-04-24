@@ -69,7 +69,7 @@ section {
 } 
 
 #fundo2 {
-    background-image: url("../imagens/background002jpg");
+    background-image: url("../imagens/background002.jpg");
 
 }
 
@@ -82,7 +82,7 @@ section {
 }
 
 .imagem {
-    background-size: ;
+    background-size: cover;
     box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.523);
     background-attachment: fixed;
 }
