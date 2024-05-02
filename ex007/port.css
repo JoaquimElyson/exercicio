@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Sedgwick+Ave+Display&display=swap');
+
+section.img {
+    background-image: url('img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.img > div {
+    background-color: rgba(0, 0, 0, 0.384);
+    box-shadow: 2px 2px 6px 2px black;
+    font-family: "Merriweather Sans", sans-serif;
+    font-variant: small-caps;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 5vw;
+    width: 70vw;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quadro {
+    background-image: linear-gradient( to circle, #0089F9, #2382CF);
+    padding-top: 20px;
+}
+
+.fmeio {
+    text-align: center;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 8vw;
+    font-variant: small-caps;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    background-image: linear-gradient( to right, transparent, #bebebec1, transparent );
+}
+
+.projetos {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #bebebec1;
+    border-radius: 20px;
+    width: 350px;
+    border: 1px  solid rgb(215, 215, 215);
+    height: 250px;
+}
+
+.projetos > h1 {
+    padding: 10px;
+}
+
+.botoes{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60px;
+    padding: 5px;
+    background-color: rgb(217, 214, 214);
+    margin-top: 5px;
+}
+
+.botoes:hover {
+    background-color: gray;
+}
+
+section {
+    width: 96.7vw;
+    height: 100vh;
+}

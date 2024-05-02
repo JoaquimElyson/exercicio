@@ -19,6 +19,14 @@
             padding: 30px 0px 30px 20px;
         }
 
+        caption {
+            font-size: 1.4em;
+            font-weight: bolder;
+            background-color: rgb(99, 98, 98);
+            padding: 10px;
+            color: white;
+        }
+
         table {
             border-collapse: collapse;
             margin: 50px;
@@ -28,15 +36,27 @@
         thead {
             background-color: gray;
             color: white;
+            position:relative;
         }
 
         .numero {
             text-align: right;
         }
 
+        thead >tr> th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: rgba(150, 150, 150, 0.299);
+        }
+
+
         td, th {
             border: 2px solid black;
-            padding: 3px;
+            padding: 10px;
         }
 
         tfoot {
@@ -50,10 +70,11 @@
         <h1>Minha tabela</h1>
     </header>
     <table>
+        <caption>Habitantes por pais</caption>
         <thead>
             <tr>
-                <th>Paises</th>
-                <td>Número de pessoas</td>
+                <th scope="col">Paises</th>
+                <th scope="col">Habitantes</th>
             </tr>
         </thead>
         <tbody>
@@ -69,13 +90,38 @@
                 <td>EUA</td>
                 <td class="numero">339 987 103</td>
             </tr>
+            <tr>
+                <td>Indonesia</td>
+                <td class="numero">277.184.719</td>
+            </tr>
+            <tr>
+                <td>Paquistão</td>
+                <td class="numero">240.215.932</td>
+            </tr>
+            <tr>
+                <td>Nigéria</td>
+                <td class="numero">223.899.057</td>
+            </tr>
+            <tr>
+                <td>Brasil</td>
+                <td class="numero">203.080.756</td>
+            </tr>
+            <tr>
+                <td>Bangladesh</td>
+                <td class="numero">172.452.382</td>
+            </tr>
+            <tr>
+                <td>Rússia</td>
+                <td class="numero">146.140.931</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Resultado</th>
+                <th scope="row">Resultado</th>
                 <td class="numero">3.196.300.130</td>
             </tr>
         </tfoot>
     </table>
+    <p style="font-size: 3em;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates repellat deserunt, nihil tempore iusto dolore voluptas a quo ipsa omnis soluta dolores provident magni veritatis nulla vel nostrum unde incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quidem eum nobis saepe sunt assumenda, voluptatum sed veniam numquam perspiciatis quo quasi id perferendis. Eos non ipsum aut rerum ratione!</p>
 </body>
 </html>
