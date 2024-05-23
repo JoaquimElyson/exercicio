@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testes</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family:Arial, Helvetica, sans-serif ;
+        }
+
+        section {
+            width: 30vw;
+            height: 100vh;
+            background-color: rgb(207, 207, 207);
+            position: relative;
+        }
+
+        #botao {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: white;
+            border: 1px solid black;
+            position: absolute;
+            top: 20px;
+            text-align: center;
+        }
+
+        #botao:hover{
+            background-color: rgb(226, 226, 226);
+            position: relative;
+        }
+
+        #sidebar > #botao:active {
+            left: 165px;
+            top: 20px;
+        }
+
+        #sidebar:active {
+            border-radius: 0%;
+            background-color: rgb(222, 222, 222);
+            width: 30vw;
+            height: 100vh;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        #idebar:hover {
+            border-radius: 0%;
+            background-color: aquamarine;
+            width: 30vw;
+            height: 100vh;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        #sidebar > #botao > img {
+            position: absolute;
+            top: 8px;
+            left: 12px;
+        }
+    </style>
+</head>
+<body>
+        <div id="sidebar">
+            <div id="botao">
+                <img src="angulo-direito.png" alt="img" width="20px">
+            </div>
+        </div>
+</body>
+</html>
