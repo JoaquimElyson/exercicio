@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+
+        *  {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background-image: url("dark-blue-bg.webp");
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        section {
+            background-color: #86bbfc;
+            border: solid 10px #0e47cd6e;
+            box-shadow: 1px 1px 20px 5px rgb(224, 218, 247);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            width: 30vw;
+            max-width: 600px;
+            min-width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+
+
+        section > h1{
+            text-align: center;
+            font-size: 1.7em;
+            margin-bottom: 15px;
+        }
+
+        section > p, input {
+            display: block;
+            margin: auto;
+        }
+
+        input {
+            width: 90%;
+            max-width: 500px;
+            border-radius: 10px;
+            border: none;
+            padding: 3px;
+        }
+
+        .botao {
+            display: inline-block;
+            width: 30%;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        #login {
+            text-align: center;
+        }
+
+        #botoes{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+
+        #verde {
+            background-color: rgba(109, 240, 109, 0.76);
+        }
+
+        #vermelho {
+            background-color: rgba(253, 113, 113, 0.71);
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Faça seu cadastro</h1>
+        <form action="" autocomplete="on" method="post">
+            <p><label for="inome">Usuário:</label> <br> <input type="text" name="nome" id="inome" autocomplete="username" required placeholder="digite seu nome"   ></p>
+
+            <p><label for="2nome">Email:</label> <br> <input type="email" name="nome" id="2nome" autocomplete="email" required placeholder="digite seu email" ></p>
+
+            <p><label for="3nome">Senha:</label> <br> <input type="text" name="nome" id="3nome" autocomplete="new-password" required placeholder="digite sua senha" minlength="8" maxlength="10" ></p>
+
+            <div id="botoes">
+                <input type="submit" value="Enviar" class="botao" id="verde">
+                <input type="reset" value="Limpar" class="botao" id="vermelho">
+            </div>
+            <p id="login">Ja tem uma conta? <a href="">login</a></p>
+        </form>
+    </section>
+</body>
+</html>
