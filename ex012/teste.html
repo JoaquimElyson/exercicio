@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>section</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            height: 100vh;
+            background-image: linear-gradient(135deg, #127369,#BFBFBF);
+        }
+
+        #fundo {
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            transform: translate(-50%,-50%);
+            background-color: #BFBFBF;
+            border-radius: 20px;
+            height: 40vh;
+            width: 70vw;
+            max-width: 800px;
+        }
+
+
+
+        div {
+            background-color: white;
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+        }
+
+        .blocos {
+            position: absolute;
+            top: 70px;
+            display: inline-block;
+        }
+
+        #prim{
+            left: 1.5%;
+        }
+
+        #seg {
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        #terc{
+            right: 1.5%;
+        }
+
+        nav {
+            left: 60%;
+            transform: translate(-50%,-50%);
+            width: 100vw;
+            height: 10vh;
+            background-color: rgba(255, 255, 255, 0);
+            position: absolute;
+            bottom: 15vh;
+        }
+
+        a {
+            display: inline-block;
+            margin-right: 40px;
+            text-align: center;
+            height: 100%;
+            width: 76px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <main id="fundo">      
+                <div class="blocos" id="prim"></div>
+                <div class="blocos" id="seg"></div>
+                <div class="blocos" id="terc"></div>
+        </main>
+        <nav>
+            <a href="#">a</a>
+            <a href="#">a</a>
+            <a href="#">a</a>
+            <a href="#">a</a>
+            <a href="#">a</a>
+        </nav>
+    </section>
+</body>
+</html>

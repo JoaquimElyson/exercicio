@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulátio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section {
+            background-image: linear-gradient(to top, black, white);
+            height: 100vh;
+        }
+
+        #papel {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            background-color: white;
+            height: 50vh;
+            width: 300px;
+            padding: 10px;
+        }
+
+        h1 , h2 {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            position: absolute;
+            top: 44px;
+            font-size: 1.1em;
+            margin: 10px 0px 10px 0px;
+        }
+
+        h3 ,input {
+            margin: 4px;
+        }
+
+        #enviar {
+            background-color: rgba(114, 223, 114, 0.437);
+            padding: 6px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #limpar {
+            background-color: rgba(247, 94, 94, 0.434);
+            padding: 6px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div id="papel">
+            <h1>Formulário</h1>
+            <h2>informações do aluno para cadastro.</h2>
+            <h3>Informações do aluno</h3>
+            <form action="">
+                <label for="inome" >Nome do aluno:</label>
+                <input type="text" name="" id="inome">
+
+                <p>
+                    <label for="iidade">Data de nascimento:</label>
+                    <input type="date" name="" id="iidade" step="1" >
+                </p>
+
+                <p>
+                    <label for="cpf">CPF:</label>
+                    <input type="password" name="" id="cpf" step="1"  min="0" max="11" size="10">
+                </p>
+
+                <h3>Nome dos pais</h3>
+                <label for="imae">Nome da mãe:</label>
+                <input type="text" name="" id="imae">
+
+                <p><label for="ipai">Nome do pai:</label>
+                <input type="text" name="" id="ipai"></p>
+
+                <p>
+                    <label for="inivel">Nivel de escolaridade.</label>
+                    <input type="radio" name="" id="inivel">
+                </p>
+
+                <p>
+                    <input type="submit" value="Enviar" id="enviar">
+                    <input type="reset" value="Limpar" id="limpar">
+                </p>
+            </form>
+            
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    
+    <section>
+        <form action="">
+            <h1 id="titulo">Formulário</h1>
+            <p id="p">Formulário para desenvolvedor.</p>
+            <br>
+            <div>
+                <p>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="" id="nome" >
+                    <label for="inome">Sobrenome</label>
+                    <input type="text" name="" id="sobrenome" autofocus>
+                </p>
+            </div>
+
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="" id="email">
+            </p>
+
+            <p>
+                Em que área do desenvolvimento você está atuando
+            </p>
+                <label for="frontend"><input type="radio" name="area" id="frontend">Front-end</label><br>
+
+                <label for="backend"><input type="radio" name="area" id="backend">Back-end</label><br>
+
+                <label for="fullstack"><input type="radio" name="area" id="fullstack">Fullstack</label><br>
+
+                <label for="dev"><input type="radio" name="area" id="dev">DevOps</label><br>
+
+                <label for="mobile"><input type="radio" name="area" id="mobile">Mobile</label><br>
+                <br>
+            <p><label for="caixa">Complemento</label></p>
+            <p id="caixa"><textarea name="" id="caixa" cols="50" rows="8"></textarea></p>
+
+            <p id="botoes">
+                <input type="submit" value="Enviar" id="enviar">
+                <input type="reset" value="Limpar" id="limpar">
+            </p>
+        </form>
+    </section>
+
+</body>
+</html>
