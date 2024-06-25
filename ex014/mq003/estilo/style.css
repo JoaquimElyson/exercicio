@@ -1,0 +1,18 @@
+#tp { display: none;}
+#c { display: none;}
+#t { display: none;}
+#d { display: none;}
+#tg { display: none;}
+
+@media print {
+
+}
+
+@media screen and (max-width: 600px) {
+    #tp { display: block;}
+
+}
+
+@media screen and (min-width:600px) and(max-width:768px) {
+    #c { display: block;}
+}

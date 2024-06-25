@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100vw;
+}
+
+body {
+    background-color: aqua;
+}
+
+main {
+    text-align: center;
+    position: absolute;
+    border-radius: 20px;
+    padding: 10px;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    margin: auto;
+    background-color: white;
+    width: 500px;
+}
+
+#tp { display: none;}
+#c { display: none;}
+#t { display: none;}
+#d { display: none;}
+#tg { display: none;}

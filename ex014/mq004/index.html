@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menus</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header>
+        <h1>Titulo</h1>
+        <div id="local" onclick="clickMenu()">
+            <div id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav id="itens">
+            <ul>
+                <li>menu 1</li>
+                <li>menu 2</li>
+                <li>menu 3</li>
+                <li>menu 4</li>
+                <li>menu 5</li>
+            </ul>
+        </nav>
+    </header> 
+
+    <main>
+        <h1>Titulo do texto</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, exercitationem. Sit iste cupiditate perferendis atque provident dolore corrupti, eaque neque assumenda, tempora aut delectus, ducimus quos eius omnis similique alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat provident facere, eaque similique earum ex iste recusandae itaque enim dolorum fugiat incidunt natus dolorem sint esse sit quibusdam velit expedita? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nulla obcaecati, facilis dolorum temporibus cupiditate magni repellat repellendus ipsam ducimus amet itaque asperiores doloremque hic, earum eos neque illum aspernatur.</p>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == "block") {
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>

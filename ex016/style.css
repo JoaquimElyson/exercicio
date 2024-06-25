@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#fundo {
+    background-image: url("html\ e\ css.jpg");
+    background-position: center center;
+    height: 125px;
+    position: relative;
+    box-shadow: 2px 2px 10px 0px inset ;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#logo {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.441);
+}
+
+#local {
+    margin-top: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#paga, #horarios, #info {
+    box-sizing: border-box;
+    text-align: center;
+    width: 80px;
+}
+
+.margin{
+    margin: 5px;
+}
+
+#paga, #info {
+    margin: 15px 60px ;
+}
+
+#tree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#funci {
+    text-align: center;
+}
+
+#funci > p {
+    margin: 5px;
+}
+
+.cor {
+    color: red;
+}
+
+#opcoes {
+    box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.171);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#busca{
+    background-color:#ffffff;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+    height: 32px;
+  }
+
+
+
+  #txtbusca{
+    border-radius:15px 0px 0px 15px;
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
